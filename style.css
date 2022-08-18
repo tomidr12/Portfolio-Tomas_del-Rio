@@ -358,6 +358,11 @@ section{
     justify-content: center;
     }
 
+    .products .product-slider .box img{
+        width:100%;
+        height:65%;
+    }
+
     .deal{
         background:#f3f3f3;
         display: flex;
