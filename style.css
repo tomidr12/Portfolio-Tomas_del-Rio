@@ -161,14 +161,16 @@ section{
     font-size: 3rem;
 }
 
-
-
 .products{
-    height: 89vh;
+    height: 91vh;
     background-image: url(./IMG/wave\ \(1\).svg);
     background-repeat: no-repeat;
     background-position: bottom;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 .products .product-slider{
@@ -254,28 +256,6 @@ section{
     line-height: 2;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width:991px){
 
     html{
@@ -287,7 +267,7 @@ section{
     }
 
     section{
-        padding:3rem 2rem;
+        padding:3rem 1rem;
     }
 
     .deal .content {
@@ -333,9 +313,13 @@ section{
         top:115%;
     }
 
-.products{
+    .products{
     background: none;
-}
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    }
 
     .deal{
         background:#f3f3f3;
@@ -383,5 +367,27 @@ section{
 
     html{
         font-size: 50%;
+    }
+}
+
+@media (max-width:340px){
+    .header .header-1 .logo{
+        font-size: 2.2rem;
+    }
+    
+    .first-heading{
+        font-size: 2.5rem;
+    }
+    
+    .text {
+        font-size: 2.5rem;
+    }
+    
+    .heading{
+        font-size: 2.6rem;
+    }
+    
+    .products .product-slider .box img{
+        width: 100%;
     }
 }

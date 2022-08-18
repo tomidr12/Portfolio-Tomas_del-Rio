@@ -14,7 +14,6 @@ window.onload = () => {
   }
 };
 
-
 let swiper = new Swiper(".product-slider", {
   loop: true,
   spaceBetween: 20,
