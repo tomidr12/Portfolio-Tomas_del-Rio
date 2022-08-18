@@ -258,6 +258,8 @@ section{
 
 .deal .content p a{
     font-size: 1.7rem;
+    border-bottom: 2.5px solid var(--primary);
+    padding: 0.10rem 0;
 }
 
 .deal .content p a:hover{
@@ -398,10 +400,12 @@ section{
         font-size: 1.4rem;
         line-height: 2;
         text-align: center;
+        margin: 1rem;
     }
 
     .deal .content p a{
         font-size: 1.7rem;
+        border-bottom: 1.5px solid var(--primary);
     }
 }
 
