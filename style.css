@@ -116,6 +116,7 @@ section{
 }
 
 .bottom-navbar{
+    border-top: 1px solid var(--dark-color);
     text-align: center;
     background:var(--primary);
     position: fixed;
@@ -246,35 +247,28 @@ section{
     font-size: 4rem;
 }
 
-.deal .content p{
+.deal .content p,
+.deal .content p a{
+    text-transform: none;
     padding:1rem 0;
     color:var(--light-color);
     font-size: 1.4rem;
     line-height: 2;
 }
 
+.deal .content p a{
+    font-size: 1.7rem;
+}
+
+.deal .content p a:hover{
+    color:var(--primary);
+}
 .footer{
     width: 100%;
     padding: 0%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
     margin-top: .5rem;
     border-top: var(--border);
     padding: 2rem;
-}
-
-.footer .mail p a{
-    color: var(--light-color);
-    text-decoration: none;
-    font-size: 1.5rem;
-    text-align: center;
-    text-transform: none;
-}
-
-.footer .mail p a:hover{
-    color: var(--primary);
 }
 
 .footer .credit{
@@ -351,7 +345,7 @@ section{
     }
 
     .products{
-    background: none;
+    background-size: cover ;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -397,12 +391,17 @@ section{
         font-size: 3.5rem;
     }
     
-    .deal .content p{
+    .deal .content p,
+    .deal .content p a{
         padding: 0;
         color:var(--light-color);
         font-size: 1.4rem;
         line-height: 2;
         text-align: center;
+    }
+
+    .deal .content p a{
+        font-size: 1.7rem;
     }
 }
 
