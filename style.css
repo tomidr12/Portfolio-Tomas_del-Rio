@@ -167,10 +167,7 @@ section{
     background-repeat: no-repeat;
     background-position: bottom;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+
 }
 
 .products .product-slider{
@@ -256,6 +253,7 @@ section{
     line-height: 2;
 }
 
+
 @media (max-width:991px){
 
     html{
@@ -268,6 +266,12 @@ section{
 
     section{
         padding:3rem 1rem;
+    }
+    .products{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
     }
 
     .deal .content {
