@@ -137,8 +137,8 @@ section{
 .heading{
     text-align: center;
     padding: 2rem 0;
-    padding-bottom: 3rem;
-    font-size: 3.5rem;
+    padding-bottom: 3.5rem;
+    font-size: 3rem;
     color: var(--dark);
 }
 
@@ -149,6 +149,19 @@ section{
     padding: .5rem 3rem;
     clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
 }
+
+.first-heading {
+    font-size: 3rem;
+    opacity: 0.94;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    font-size: 3rem;
+}
+
+
 
 .products{
     height: 89vh;
@@ -320,10 +333,9 @@ section{
         top:115%;
     }
 
-    .products{
-        background: none;
-    }
-
+.products{
+    background: none;
+}
 
     .deal{
         background:#f3f3f3;
