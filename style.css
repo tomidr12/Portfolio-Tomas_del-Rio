@@ -162,7 +162,7 @@ section{
 }
 
 .products{
-    height: 91vh;
+    height: 90vh;
     background-image: url(./IMG/wave\ \(1\).svg);
     background-repeat: no-repeat;
     background-position: bottom;
@@ -217,7 +217,7 @@ section{
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    height: 95vh;
+    height: 92vh;
 }
 
 .deal .content {
@@ -253,6 +253,39 @@ section{
     line-height: 2;
 }
 
+.footer{
+    width: 100%;
+    padding: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: .5rem;
+    border-top: var(--border);
+    padding: 2rem;
+}
+
+.footer .mail p a{
+    color: var(--light-color);
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: none;
+}
+
+.footer .mail p a:hover{
+    color: var(--primary);
+}
+
+.footer .credit{
+    font-size: 1.5rem;
+    color:var(--light-color);
+    text-align: center;
+}
+
+.footer .credit span{
+    color:var(--primary);
+}
 
 @media (max-width:991px){
 
@@ -331,6 +364,7 @@ section{
         align-items: center;
         justify-content: space-around;
         flex-direction: column;
+        height: 95vh;
     }
 
     .deal .content {
